@@ -1,4 +1,4 @@
-package com.jiwon_hae.domain.data
+package com.jiwon.domain.data
 
 interface GithubRepo {
     val name : String
