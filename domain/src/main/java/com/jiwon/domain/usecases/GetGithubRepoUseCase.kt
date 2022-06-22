@@ -7,7 +7,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
-class GetGitbugRepoUseCase(
+class GetGithubRepoUseCase(
     private val githubRepository : GithubRepository
 ) {
     operator fun invoke(
